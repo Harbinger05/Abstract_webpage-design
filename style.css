@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial Narrow';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 22px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: -738px;
+}
+
+.l:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.h:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.submit {
+    font-size: 24px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(25, 26, 27);
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-left-width: 0.8px;
+    border-right-width: 0.8px;
+    border-top-width: 0.8px;
+    border-bottom-width: 0.8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sign {
+    font-size: 24px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4C5FD5;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-style: none;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.1s ease-in-out;
+}
+
+.bttn {
+    margin-right: 77px;
+}
+
+.container {
+    width: 100%;
+    height: 54vh;
+    background-color: #dadbf1;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-para {
+    line-height: 280px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.search-bar {
+    margin-left: 414px;
+    margin-top: -65px;
+}
+
+.search-bar input {
+    height: 9vh;
+    width: 63%;
+    /* border-style: solid; */
+    border-color: #4C5FD5;
+    border-width: 0.8px;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+input:hover {
+    border-color: #4C5FD5;
+}
+
+.another-container {
+    width: 100%;
+    height: 139vh;
+    /* background-color: rgb(45, 227, 45); */
+}
+
+svg {
+    height: 33px;
+    cursor: pointer;
+}
+
+svg:hover {
+    opacity: 0.5
+}
+
+.icon {
+    margin-left: 129px;
+}
+
+.mini-box-one {
+    width: 500px;
+    height: 191px;
+    /* background-color: tomato; */
+    position: relative;
+    margin-left: 193px;
+    margin-bottom: 100px;
+    top: 16%;
+}
+
+.image {
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 121px;
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.space {
+    margin-top: 15px;
+    color: rgb(76, 95, 213);
+}
+
+.space:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.another-container {
+    position: relative;
+}
+
+.mini-box-two {
+    width: 500px;
+    height: 191px;
+    /* background-color: lightgreen; */
+    position: absolute;
+    margin-left: 193px;
+    margin-bottom: 100px;
+    top: 16%;
+    left: 36%;
+}
+
+.mini-box-three {
+    width: 500px;
+    height: 191px;
+    /* background-color: lightgreen; */
+    position: absolute;
+    margin-left: 193px;
+    margin-bottom: 100px;
+    top: 45%;
+    left: 36%;
+}
+
+.mini-box-fourth {
+    width: 500px;
+    height: 191px;
+    /* background-color: lightgreen; */
+    position: absolute;
+    margin-left: 193px;
+    margin-bottom: 100px;
+    top: 73%;
+    left: 36%;
+}
+
+footer {
+    width: 100%;
+    height: 58vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.box-one{
+    /* background-color: tomato; */
+    height: 25%;
+    width: 7%;
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+
+p{
+    margin-bottom: 10px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+li{
+    line-height: 23px;
+    list-style: none;
+    font-size: 20px;
+}
+
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box-two{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.box-three{
+    position: absolute;
+    top: 15%;
+    left: 43%;
+}
+
+.box-fourth{
+    position: absolute;
+    top: 15%;
+    left: 62%;
+}
+
+.final p{
+    margin-top: 47px;
+    font-size: 20px;
+}
+
+.no-bold{
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.no-bold:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.box-fifth{
+    position: absolute;
+    top: 55%;
+    right: 6%;
+    width: 14%;
+}
+
+.box-fifth p{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.box-fifth svg{
+    margin-bottom: 17px;
+}
+
+.sticky{
+    position: absolute;
+    top: 85%;
+    right: 2%;
+    background-color: #4C5FD5;
+    border-radius: 45px;
+    padding: 12px 30px 12px 30px;
+    cursor: pointer;
+}
